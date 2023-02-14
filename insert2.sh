@@ -1,19 +1,6 @@
 #!/bin/bash
-#description: insert row into table 
 
 
-#ask table name to insert row into this table --->okay
-#validation is table exist or no --->okay
-#approach 
-#go to file.Mdata --->to count numbers columns and get first column and second column--->okay
-#ask user enter $f2 into $f1 Column---> okay
-#echo user enter int into id Column--> okay
-#validation value is verify datatype or no ---->okay
-#validation if first column is pk check is unique and not null---->okay
-
-
-
-#Function check datatypes
 function ValInt()
 {
     local re='^([0-9]+)*$'
